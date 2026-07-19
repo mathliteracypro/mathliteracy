@@ -1,92 +1,47 @@
-# 📚 MathLiteracy Pro: Platform Documentation
+# 📚 MathLiteracy Pro: User Help Center & Knowledge Base
 
-Welcome to the official developer and architecture documentation repository for the **MathLiteracy Pro** platform. This hub serves as the definitive reference for engineering, deploying, and contributing to the application.
-
-MathLiteracy Pro is an advanced, curriculum-aligned, interactive learning management system (LMS) designed to deliver high-quality South African **CAPS (Curriculum Assessment Policy Statements)** Mathematical Literacy education for Grades 10–12.
+Welcome to the **MathLiteracy Pro Help Center**! This documentation portal is designed specifically for students, parents, and educators. Here, you will find complete, step-by-step guides on how to navigate the platform, monitor progress, and make the most of our South African CAPS-aligned Mathematical Literacy curriculum.
 
 ---
 
-## 🔗 Quick Navigation
+## 🔗 Quick Help Directory
 
-| Documentation Section | File Path | Focus Area |
+| Target Audience / Topic | Help Page Link | What You'll Learn |
 | :--- | :--- | :--- |
-| **🚀 Main Overview** | [README.md](./README.md) | Project summary, tech stack, and landing hub |
-| **🎨 Page Guides** | `/pages/` | Modular analysis of all 8 core application screens |
-| ├── Dashboard | [dashboard.md](./pages/dashboard.md) | Dynamic study statistics, widgets, and user hubs |
-| ├── Courses Catalog | [courses.md](./pages/courses.md) | Topic structures, lessons, and search parameters |
-| ├── Interactive Study | [study.md](./pages/study.md) | Video player, playlist controls, and session states |
-| ├── Daily Tasks | [tasks.md](./pages/tasks.md) | Practice templates, countdowns, and submissions |
-| ├── Profile & Settings | [profile.md](./pages/profile.md) | User progress tracking, achievement badges, and security |
-| ├── Editorial Blog | [blog.md](./pages/blog.md) | Educational articles, user comments, and reading progress |
-| ├── Instructors Hub | [instructors.md](./pages/instructors.md) | Instructor profiles, stats sheets, and educator onboarding |
-| └── Authentication | [auth.md](./pages/auth.md) | Custom security, multi-provider credentials, and verification |
-| **🧱 Technical Architecture** | `/architecture/` | Low-level design, database schemas, and networking |
-| ├── High-Level Overview | [overview.md](./architecture/overview.md) | Component trees, lifecycle hooks, and structural design |
-| ├── Firestore Schema | [database-schema.md](./architecture/database-schema.md) | Detailed documentation of collections, fields, and relations |
-| ├── Security Rules | [security-rules.md](./architecture/security-rules.md) | Multi-layered Firestore security protocols and permissions |
-| └── Offline Network | [network-handler.md](./architecture/network-handler.md) | Synchronizer state queues, local storage caching, and health |
-| **🔌 API Reference** | [endpoints.md](./api/endpoints.md) | Core serverless and third-party endpoints, payloads, and queries |
-| **🛠️ Setup & Operations** | `/guides/` | Practical onboarding and operational guidelines |
-| ├── Developer Setup | [setup.md](./guides/setup.md) | Installation steps, script configs, and environment setup |
-| ├── Deployment | [deployment.md](./guides/deployment.md) | Continuous builds, CI pipelines, and live scaling steps |
-| └── Contributing | [contributing.md](./guides/contributing.md) | Coding style, commit standards, and PR workflows |
+| **🎓 Students** | [Student User Guide](./pages/student-guide.md) | How to watch lessons, drop bookmarks, complete practice tasks, and earn achievements. |
+| **👩‍🏫 Teachers & Educators** | [Teacher Manual](./pages/teacher-guide.md) | How to publish lessons, track enrollments, review statistics, and grade homework. |
+| **👪 Parents & Guardians** | [Parent Portal Guide](./pages/parent-portal.md) | How to track your child's study time, verify certificates, and understand CAPS weightings. |
+| **🛡️ Trust, Privacy & Safety** | [Security & Data Privacy](./security/data-privacy.md) | Plain-English guide on how we secure your personal data, grades, and information. |
+| **🔧 Technical Self-Help** | [Troubleshooting Guide](./pages/troubleshooting.md) | Resolving login issues, system permissions, and offline synchronization questions. |
 
 ---
 
-## 🛠️ System Architecture & Technology Stack
+## 🚀 Welcome to Mathematical Literacy!
 
-The platform is engineered using modern, modular web technologies for optimal performance, offline capabilities, and high reliability:
+MathLiteracy Pro is an advanced, interactive classroom platform dedicated to South African **CAPS (Curriculum Assessment Policy Statements)** Mathematical Literacy for Grades 10–12. 
 
-### Frontend Layer
-- **Framework**: React 18+ (TypeScript)
-- **Bundler**: Vite (fully optimized tree-shaking, fast module bundling)
-- **Styling**: Tailwind CSS (dynamic utility class architecture)
-- **Animations**: `motion` (by `motion/react` for elegant, hardware-accelerated transitions)
-- **Routing**: React Router DOM (fully declared client-side router with state syncing)
-- **Visualization**: Recharts & D3 (for dynamic analytics, study trends, and badge progress charts)
+Our mission is to make real-world mathematical concepts—like compound interest, loan calculations, scaling maps, and household budgets—highly accessible, visual, and engaging.
 
-### Backend & Database Layer
-- **Core Engine**: Firebase Firestore (NoSQL Document Store)
-- **User Authentication**: Firebase Auth (email verification, secure session tokens, role management)
-- **File & Media Storage**: Firebase Cloud Storage (task documents, profile pictures, course content)
-- **Server Environment**: Express (deployed via lightweight containers)
-
-### Infrastructure & Operations
-- **Containerization**: Docker (Vite + Express in multi-stage builds)
-- **Ingress Gateway**: NGINX Reverse Proxy (SSL termination, rate-limiting)
-- **Local Sandbox Environment**: Port `3000` (strictly hardcoded container routing)
+### 🌟 Key Platform Features
+- **Visual Curriculum Chapters**: Easily navigate between Finance, Measurement, Mapwork, and Data Handling.
+- **Micro-Learning Video Player**: Watch focused lessons, take real-time notes, and place review bookmarks.
+- **Interactive Exam Tools**: Dynamic spreadsheets, tax brackets converters, and focus timers.
+- **Offline Mode Integration**: Learn continuously even during load shedding or low network connectivity.
 
 ---
 
-## 🌐 Live Platform Details
+## 🌐 Live Platform & Access Nodes
 
-- **Official Live Demo Domain**: `https://mathlit.free.nf`
-- **Development Ingress Endpoint**: `https://ais-dev-bdzycqzz3iml2b4gaqwb65-977883421679.europe-west2.run.app`
-- **Shared Production Preview**: `https://ais-pre-bdzycqzz3iml2b4gaqwb65-977883421679.europe-west2.run.app`
-
-### Current Deployment Status
-```text
-[✔] Continuous Deployment: ACTIVE
-[✔] Cloud Container Registry: SUCCESS (GCR/Cloud Run)
-[✔] Database Rule Enforcement: STRICT DEPLOYED
-[✔] Linter & Typechecks: 100% GREEN (tsc --noEmit)
-```
+- **Official Main Portal**: `https://mathlit.free.nf`
+- **Backup Ingress Gateway**: `https://ais-pre-bdzycqzz3iml2b4gaqwb65-977883421679.europe-west2.run.app`
 
 ---
 
-## 📐 Conceptual Application Flow
+## 🛡️ Our Trust & Security Commitment
 
-```mermaid
-graph TD
-  User((End User)) -->|Interacts| UI[React SPA - Port 3000]
-  UI -->|Local State / Caching| LocalCache[(localForage / CacheManager)]
-  UI -->|Secure Request / Authentication| FBAuth[Firebase Authentication]
-  UI -->|Real-time Subscriptions| Firestore[(Firebase Firestore NoSQL)]
-  UI -->|Offline Operations queue| SyncMgr[SyncManager / RequestQueue]
-  SyncMgr -->|Background Sync| Firestore
-  UI -->|Video Content & Lectures| YTPlayer[YouTube / Custom Video Services]
-```
+At MathLiteracy Pro, we value student privacy and data security above all else:
+- **No Public Data Exposure**: Your profile, email, grades, and practice uploads are private. Other students are strictly barred from viewing your grades or work.
+- **No Shared Passwords**: Authentication is managed by secure global single-sign-on (SSO) and direct email verification loops.
+- **Secure Integration**: Third-party API services and keys are processed inside private, server-side containers—never exposed to the browser or end-user endpoints.
 
----
-
-*This documentation is created and managed by the MathLiteracy Pro Core Development Team. For support inquiries, reach out to the platform's security officer or open a issue following the guidelines in the [Contributing Guide](./guides/contributing.md).*
+*Need immediate assistance? Reach out to your school's designated platform administrator or review our [Troubleshooting Guide](./pages/troubleshooting.md).*
