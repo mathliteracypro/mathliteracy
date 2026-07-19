@@ -6,7 +6,7 @@ The **Dashboard** serves as the central hub of the MathLiteracy Pro application.
 
 ## 📸 Interface Preview
 ![Dashboard Wireframe Placeholder](https://via.placeholder.com/1200x600.png?text=MathLiteracy+Pro+Dashboard+Layout)
-*Live UI available at: `https://mathlit.free.nf/dashboard`*
+*Live UI available at: [https://mathlit.free.nf/dashboard](https://mathlit.free.nf/dashboard)*
 
 ---
 
