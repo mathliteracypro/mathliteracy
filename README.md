@@ -11,8 +11,11 @@ Welcome to the **MathLiteracy Pro Help Center**! This documentation portal is de
 | **🎓 Students** | [Student User Guide](./pages/student-guide.md) | How to watch lessons, drop bookmarks, complete practice tasks, and earn achievements. |
 | **👩‍🏫 Teachers & Educators** | [Teacher Manual](./pages/teacher-guide.md) | How to publish lessons, track enrollments, review statistics, and grade homework. |
 | **👪 Parents & Guardians** | [Parent Portal Guide](./pages/parent-portal.md) | How to track your child's study time, verify certificates, and understand CAPS weightings. |
+<<<<<<< HEAD
 | **📘 Courses & Lessons Schema** | [Courses & Lessons Structure](./courses_and_lessons_structure.md) | Complete guide on Firestore schemas, queries, and state management for courses, details & lessons. |
 | **⚡ Data Strategy** | [Data Collection Strategy](./data_collection_strategy.md) | Technical architecture for real-time Firestore sync, indexing, and offline capabilities. |
+=======
+>>>>>>> 355c848e6d7db7d5219beeb8f37a84b93d401e50
 | **🛡️ Trust, Privacy & Safety** | [Security & Data Privacy](./security/data-privacy.md) | Plain-English guide on how we secure your personal data, grades, and information. |
 | **🔧 Technical Self-Help** | [Troubleshooting Guide](./pages/troubleshooting.md) | Resolving login issues, system permissions, and offline synchronization questions. |
 
